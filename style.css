@@ -1,25 +1,22 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-:root {
-    --morado-principal: #6f42c1;
-    --morado-hover: #5a32a3;
-    --morado-claro: #f3e5f5;
-    --morado-borde: #ce93d8;
-    --morado-texto: #4a148c;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn-purple {
-    background-color: var(--morado-principal);
-    border-color: var(--morado-principal);
+    background-color: #6f42c1; 
+    border-color: #6f42c1;
     color: white;
-    font-weight: bold;
+}
+
+.btn-purple:hover {
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+    color: white;
 }
 
 .alert-purple {
-    background-color: var(--morado-claro);
-    border: 2px solid var(--morado-borde);
-    color: var(--morado-texto);
+    background-color: #f3e5f5;
+    border: 2px solid #ce93d8; 
+    color: #4a148c;           
     border-radius: 12px;
 }
