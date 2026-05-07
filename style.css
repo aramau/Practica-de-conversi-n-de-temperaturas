@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-purple {
+    background-color: #6f42c1; 
+    border-color: #6f42c1;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+    color: white;
+}
+
+.alert-purple {
+    background-color: #f3e5f5;
+    border: 2px solid #ce93d8; 
+    color: #4a148c;           
+    border-radius: 12px;
+}
